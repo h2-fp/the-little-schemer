@@ -21,6 +21,6 @@
 	(lambda (n m)
 		(cond
 			((zero? m) 1)
-			(else (x n (x n (sub1 m)))))))
+			(else (x n (^ n (sub1 m)))))))
 
 
